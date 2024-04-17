@@ -53,10 +53,13 @@ button:hover {
     width: 100%;
 }
 .img {
-    border-radius: 100px;
+    border-radius: 50%;
     width: 100px;
     display: flex;
+    height: 100px;
+    object-fit: cover;
 }
+
 .h1 {
     text-align: center;
     align-items: center;
@@ -93,7 +96,7 @@ h1 {
     display: flex;
     align-items: center;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 10px;
@@ -101,7 +104,7 @@ h1 {
 
 .company-card img {
     width: 100px;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     margin-right: 20px;
 }
